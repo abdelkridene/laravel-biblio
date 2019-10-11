@@ -41,3 +41,7 @@ Route::get('/VoirLivre/{livreid}','livreController@VoirLivre')->name('VoirLivre'
 
 Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
+
+
+/*route
+*/
